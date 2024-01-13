@@ -1,17 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* header part style */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 40px;
 }
 
-nav ul{
+nav ul {
     display: flex;
+    padding-right: 120px;
 }
 
-nav ul li{
+nav ul li {
     list-style: none;
     margin-left: 30px;
     font-weight: 500;
     font-size: 1rem;
+    padding-top: 10px;
+
 }
 
+nav ul li a {
+    text-decoration: none;
+    color: #3A3A3A;
+    ;
+}
+
+.Influencer-products {
+    color: #3A3A3A;
+    padding-left: 120px;
+}
+
+.header-content-container {
+    display: flex;
+    padding-top: 100px;
+    gap: 50px;
+}
+
+.header-content {
+    padding-left: 120px;
+    padding-top: 55px;
+}
+
+.header-content h1 {
+    color: #3A3A3A;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.header-content p {
+    color: #3A3A3A;
+    padding-top: 20px;
+    font-weight: 600;
+    padding-right: 150px;
+    padding-bottom: 20px;
+}
+
+.header-content button {
+    border-radius: 41px;
+    background: #E02C6D;
+    padding: 10px 24px;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+
+.header-photo {
+    margin-right: 160px;
+    background-image: url('/images/Circle design.svg');
+}
+
+.header-photo img {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width:576px) {
+    nav ul li {
+        display: none;
+    }
+
+    .Influencer-products {
+        text-align: center;
+    }
+
+    .header-content-container {
+        flex-direction: column-reverse;
+    }
+
+    .header-content h1 {
+        color: #3A3A3A;
+        text-align: center;
+        font-size: 28px;
+        font-weight: 700;
+        margin: 0;
+        padding-right: 80px;
+        line-height: normal;
+    }
+
+    .header-content p{
+        font-size: 14px;
+    
+        text-align: center;
+        margin: 0px;
+    }
+} */
