@@ -211,7 +211,7 @@ nav ul li a {
     padding-right: 50px;
 }
 
-.feature-product-content button{
+.feature-product-content button {
     background: #E02C6D;
     padding: 8px 24px;
     border: none;
@@ -220,6 +220,41 @@ nav ul li a {
     font-weight: 700;
 }
 
+
+/* footer section styles */
+
+footer {
+    text-align: center;
+    background: #0A0826;
+    color: white;
+}
+
+footer h1 {
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+footer p {
+    color: var(--Text-Gray-300, #D9DBE1);
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.social-media-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-media-icons img {
+    width: 45px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
 
 
 
