@@ -85,6 +85,90 @@ nav ul li a {
     padding-left: 30px;
 }
 
+/* Company name section style */
+
+.company-name-container {
+    margin: 130px 200px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid rgb(216, 212, 212);
+    padding: 20px 50px;
+
+}
+
+/* Popular collection styles */
+
+.Popular-collection {
+    margin: 0px 210px;
+}
+
+.Popular-collection-title {
+    text-align: center;
+    padding-bottom: 30px;
+    color: #3A3A3A;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 70px;
+
+}
+
+.gear-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    gap: 40px;
+    text-align: center;
+
+}
+
+.gear {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    padding: 29px 0px 20px 29px;
+    text-align: left;
+}
+
+.gear img{
+    transition: transform 0.3s ease;
+}
+
+.gear img:hover{
+    transform: scale(1.02);
+}
+
+.gear h1 {
+    color: var(--Text-Gray-900, #18191F);
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.gear h2 {
+    color: var(--Dark-Color, rgba(0, 0, 0, 0.87));
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.gear p {
+    color: var(--Gray-50, #787885);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 143%;
+    letter-spacing: 0.252px;
+}
+
+.gear-rating::before {
+    content: "★★★★★";
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: gold;
+}
+
+
 
 
 
